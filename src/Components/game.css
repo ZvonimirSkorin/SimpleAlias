@@ -1,0 +1,206 @@
+body{
+    background-color:cornflowerblue;
+  
+}
+
+.nova{
+    color:white;
+    font-size:2rem;
+    font-weight:700;
+    padding:1.5rem 2.5rem;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+.button{
+    color:white;
+    font-weight:600;
+    font-size:1.5rem;
+    
+
+}
+
+.pokrenibutton {
+    color: white;
+    background-color: orange;
+    padding: 1.5rem;
+    width: 95%;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.pokrenibuttonparent {
+    position: absolute;
+    bottom: 5%;
+    left:1.25%;
+    display: flex;
+    width: 97.5%;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1.5rem 1rem;
+}
+
+.gameInput {
+    
+    margin-top: 1rem;
+    border: 1px white;
+    border-bottom:1px solid grey;
+    border-style: solid;
+    font-size: 1.5rem;
+    width: 95%;
+    justify-content: center;
+    align-content: center;
+    padding:1.5rem;
+    box-sizing: border-box;
+}
+
+
+.gameInputParent {
+    position: absolute;
+    top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    left:0%;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    height:100vh;
+    box-sizing: border-box;
+    z-index: 100;
+}
+@media screen and (max-height: 600px) {
+    .gameInputParent{
+        height:100vh;
+        z-index:10;
+    }
+}
+.gameInputChild{
+    max-width: 600px;
+    max-height: 600px;
+}
+
+
+.timbuttonparent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: lightskyblue;
+    padding: 1.5rem 0;
+    cursor: pointer;
+}
+
+.buttonInputcreate {
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: orange;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.buttonInputcancel {
+    padding: 1rem 1.5rem;
+    color: white;
+    margin: 1.5rem 1.5rem 1.5rem 0;
+    background-color: dimgrey;
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.igra{
+    background-color:whitesmoke;
+    text-align:center;
+    height:100%;
+    width:100%;
+    overflow-x:hidden;
+    color:white;
+    font-weight:600;
+}
+
+.igraci{
+    width:95%;
+    margin:0 auto;
+    color:#111;
+    font-size:1.2rem;
+    font-weight:500;
+    background-color:white;
+    padding:1.5rem;
+    border-radius:5px;
+    margin-bottom:1rem;
+}
+
+.buttonTocno {
+    background-color: mediumspringgreen;
+    font-size: 1rem;
+    padding: 1.2rem 3rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    right: 2%;
+}
+
+.buttonPreskoci {
+    background-color: #f25757;
+    font-size: 1rem;
+    box-sizing:border-box;
+    padding: 1.2rem 2.5rem;
+    position: absolute;
+    bottom: 0;
+    left:2%;
+    width:40%;
+}
+
+.buttonPointsParent{
+   width:90%;
+    
+}
+
+.rijec{
+    color:#111;
+    font-size:3rem;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-weight:600;
+    text-align:center;
+}
+
+.timWrapper{
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+
+.postavke{
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    color:white;
+    cursor: pointer;
+}
+
+strong{
+    margin:0 0.5rem;
+}
